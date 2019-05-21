@@ -1,0 +1,24 @@
+{
+ "capabilities": [
+    	{
+   "deviceName": "QHC0215C28010076",
+ "platformName": "Android",
+ "version": "7.0",
+ "browserName":"HuaweiPVH",
+ "maxInstances": 1
+    	}
+ ],
+ "configuration": {
+ "cleanUpCycle": 2000,
+ "timeout": 30000,
+ "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+ "host": "0.0.0.0",
+ "port": 4727,
+ "maxSession": 1,
+ "register": true,
+ "url": "http://192.168.101.2:4727/wd/hub",
+ "registerCycle": 5000,
+ "hubPort": 4444,
+ "hubHost": "10.1.30.48"
+ }
+}
